@@ -1,0 +1,88 @@
+html {
+	min-width: 290px;
+	color: #222;
+	background-color: rgba(235, 235, 204, 0.788);
+	font-family: 'IBM Plex Mono', monospace;
+	display: block;
+	line-height: 1.5;
+}
+
+body {
+	display: block;
+	margin: 20px;
+}
+
+header {
+	margin: 20px 0 20px 5px;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+#navbar {
+	position: fixed;
+	min-width: 290px;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	border-right: 1px solid #222;
+	height: 100%;
+}
+
+#navbar header {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#navbar ul {
+	height: 88%;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+}
+
+#navbar li {
+	color: #222;
+	border-top: 1px solid #222;
+	list-style: none;
+	position: relative;
+	width: 100%;
+	padding: auto;
+}
+
+#navbar a {
+	text-decoration: none;
+	display: block;
+	color: #222;
+	padding: 10px 30px;
+	cursor: pointer;
+	transition: 0.15s;
+}
+
+#navbar a:hover {
+	background-color: #222;
+	color: rgba(235, 235, 204, 0.788);
+	transform: scaleX(1.05);
+}
+
+#main-doc {
+	position: absolute;
+	margin-left: 310px;
+	padding: 20px;
+	margin-bottom: 110px;
+}
+
+code {
+	background-color: aquamarine;
+	border: 1px solid #222;
+	padding: 4px;
+	
+}
+
+/* Responsive Section*/
+
+@media (min-width: 400px) {
+	body {
+	background-color: rgba(235, 235, 204, 0.788);
+	width: 200px;}
+	}
